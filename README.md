@@ -2,7 +2,30 @@
 
 This project implements a state-of-the-art sarcasm detection pipeline based on the research paper: **"Context-Aware and Retrieval-Augmented Sarcasm Detection in Social Media"**.
 
-The core idea is to enhance standard transformer-based classifiers (like RoBERTa) by retrieving similar sarcastic examples from a large-scale knowledge base and using them as additional context for the model.
+---
+
+## 🚧 Status: Work in Progress
+**Both this code repository and the corresponding article repository are under active development.** 
+For the research background and theoretical framework, please refer to the article repository.
+
+---
+
+## 📝 Abstract
+Sarcasm detection is a challenging natural language processing task because the intended meaning of a text often differs from its literal wording and depends on conversational context. This project investigates whether a transformer-based classifier (**RoBERTa**) that uses both a target comment and its conversational context (Retrieval-Augmented) can detect sarcasm more effectively than context-free baselines.
+
+**Key Research Directions:**
+*   **Contextual Modeling:** Integrating parent comments to capture conversational incongruity.
+*   **Retrieval Augmentation:** Using FAISS to retrieve semantically similar sarcastic examples to support classification.
+
+---
+
+## 🔗 Project Ecosystem
+1.  **Code Repository (This one):** Implementation pipeline, FAISS index, and RoBERTa fine-tuning.
+2.  **[Article Repository (Sarcasm_Detection_Article)](https://github.com/mina-mtb/Sarcasm_Detection_Article):** Research paper (LaTeX), bibliography, and full documentation.
+    - 📄 **[Read the Paper (PDF)](https://github.com/mina-mtb/Sarcasm_Detection_Article/blob/main/main_updated.pdf)**
+
+
+---
 
 ## 🚀 Pipeline Architecture
 
@@ -51,7 +74,7 @@ The project uses the **SARC (Self-Annotated Reddit Corpus)** dataset, specifical
 - **Columns**: `label`, `comment`, `author`, `subreddit`, `score`, `ups`, `downs`, `date`, `created_utc`, `parent_comment`.
 
 ## 📖 Reference
-> Tahmasebi, M. (2026). Context-Aware and Retrieval-Augmented Sarcasm Detection in Social Media.
+> Tahmasebi, M. (2026). Context-Aware and Retrieval-Augmented Sarcasm Detection in Social Media. Available at: [mina-mtb/Sarcasm_Detection_Article](https://github.com/mina-mtb/Sarcasm_Detection_Article)
 
 ---
 *Developed for the Advanced Machine Learning with Neural Networks course.*
