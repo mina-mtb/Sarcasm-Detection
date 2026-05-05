@@ -1,0 +1,19 @@
+# Data and models
+data/
+*.pkl
+*.faiss
+*.csv
+*.pt
+*.bin
+
+# Documentation and Paper
+*.pdf
+
+# Python / Jupyter
+.ipynb_checkpoints/
+__pycache__/
+*.log
+
+# Checkpoints and Output
+checkpoints/
+model_output/
