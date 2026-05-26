@@ -1,0 +1,17 @@
+{
+  "model_name": "Retrieval-only kNN diagnostic (k=5)",
+  "input_type": "parent_comment + comment + retrieved examples",
+  "accuracy": 0.5794872471880446,
+  "balanced_accuracy": 0.5794814543550196,
+  "precision": 0.5736798992578827,
+  "recall": 0.6193719558072308,
+  "f1": 0.5956509596831522,
+  "macro_f1": 0.5788142037139633,
+  "weighted_f1": 0.5788166487199787,
+  "roc_auc": 0.6086214235205758,
+  "average_precision": 0.5926222518984157,
+  "test_samples": 151496,
+  "positive_samples": 75759,
+  "negative_samples": 75737,
+  "notes": "Diagnostic retrieval-only vote using BAAI/bge-base-en-v1.5 with FAISS cosine/IP over normalized sentence embeddings. Predictions use similarity-weighted vote over k=5 nearest training examples. This is not expected to beat fine-tuned transformers because semantic similarity does not always imply the same sarcasm label."
+}

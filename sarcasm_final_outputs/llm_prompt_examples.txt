@@ -1,0 +1,214 @@
+==================== Query 1: zero-shot ====================
+You are judging sarcasm in a Reddit conversation.
+
+Parent comment:
+Charmander I wouldn't really consider rare. I said charizard.
+
+Target reply:
+Whoops, didn't read it obviously.
+
+Is the target reply sarcastic? Answer 0 or 1 and explain briefly.
+Use 1 for sarcastic and 0 for non-sarcastic.
+
+==================== Query 1: few-shot ====================
+You are judging sarcasm in a Reddit conversation.
+
+        Here are similar labeled examples:
+
+        Example 1
+Parent comment: Started playing Pokemon Go about a week ago, caught this, rare or nah?
+Target reply: Fuck you!
+Label: 1
+
+Example 2
+Parent comment: I have obsessive compulsive disorder, which makes me want all Ivs or none lol. and I'm actually going for both X and Y (I have two charizards). Those are some good movesets for my charizard X, I might try dragon claw instead of tough claw though (My moveset so far is dragon dance, dragon claw, fire punch, and roost.)
+Target reply: Tough Claws is M-Charizard's special ability; it increases physical attack power by 33%.
+Label: 0
+
+Example 3
+Parent comment: I caught an Omanyte. Never seen one since though but they do exist.
+Target reply: I caught one wild.
+Label: 0
+
+        Now classify this new case.
+
+        Parent comment:
+        Charmander I wouldn't really consider rare. I said charizard.
+
+        Target reply:
+        Whoops, didn't read it obviously.
+
+        Is the target reply sarcastic? Answer 0 or 1 and explain briefly.
+        Use 1 for sarcastic and 0 for non-sarcastic.
+
+==================== Query 2: zero-shot ====================
+You are judging sarcasm in a Reddit conversation.
+
+Parent comment:
+I personally like Curiel Root for the EXP gain until I cap out my bird's rank.
+
+Target reply:
+It becomes favored food after 10 feedings, then you can go back to krakka root permanently.
+
+Is the target reply sarcastic? Answer 0 or 1 and explain briefly.
+Use 1 for sarcastic and 0 for non-sarcastic.
+
+==================== Query 2: few-shot ====================
+You are judging sarcasm in a Reddit conversation.
+
+        Here are similar labeled examples:
+
+        Example 1
+Parent comment: I need a second croc too! And I also have a maxed Zeff! XD His books came out just as fighter teams were dying off sadly, and I only had to farm for him like 5 tries, back when him and arlong were the best leads :p
+Target reply: Arlong was my first pull so I never farmed him, but yeah, Zeff is now useless since I have Jinbe :P Laboon and Smoker I both got on my third runs while looking for penguins and stuff xD
+Label: 0
+
+Example 2
+Parent comment: good ways to earn catfood before the ultra souls guranteed ends? i've got 500 catfood and need 250 more catfood, any advice on ways I could earn catfood?
+Target reply: ITF timed challenges, clearing SoL subchapters for the first time
+Label: 0
+
+Example 3
+Parent comment: getting a f2p divine ? I know this would be a long process from getting the fame to getting the feed power , but has anyone reached a f2p divine pet before and how would they have done it / the easiest(relatively) shortest way to undertake to get to that stage and I got now a relatively underleveled legendary pet Yes I got a lot of free time and I can purchase gold for the pet yard upgrade
+Target reply: Yeah they'd have to be working since the beginning of pets to have one by now
+Label: 0
+
+        Now classify this new case.
+
+        Parent comment:
+        I personally like Curiel Root for the EXP gain until I cap out my bird's rank.
+
+        Target reply:
+        It becomes favored food after 10 feedings, then you can go back to krakka root permanently.
+
+        Is the target reply sarcastic? Answer 0 or 1 and explain briefly.
+        Use 1 for sarcastic and 0 for non-sarcastic.
+
+==================== Query 3: zero-shot ====================
+You are judging sarcasm in a Reddit conversation.
+
+Parent comment:
+Steam Cash Giveaway! Pick number between 1-10,000
+
+Target reply:
+5006
+
+Is the target reply sarcastic? Answer 0 or 1 and explain briefly.
+Use 1 for sarcastic and 0 for non-sarcastic.
+
+==================== Query 3: few-shot ====================
+You are judging sarcasm in a Reddit conversation.
+
+        Here are similar labeled examples:
+
+        Example 1
+Parent comment: $500 steam giveaway!!!!!!!!!1 (Details inside!)
+Target reply: 907865
+Label: 0
+
+Example 2
+Parent comment: Overwatch giveaway!
+Target reply: 5489
+Label: 0
+
+Example 3
+Parent comment: Rocket League Giveaway! Comment to Enter!
+Target reply: Thanks :)
+Label: 0
+
+        Now classify this new case.
+
+        Parent comment:
+        Steam Cash Giveaway! Pick number between 1-10,000
+
+        Target reply:
+        5006
+
+        Is the target reply sarcastic? Answer 0 or 1 and explain briefly.
+        Use 1 for sarcastic and 0 for non-sarcastic.
+
+==================== Query 4: zero-shot ====================
+You are judging sarcasm in a Reddit conversation.
+
+Parent comment:
+Now how would you know that feeling?
+
+Target reply:
+I wonder how.
+
+Is the target reply sarcastic? Answer 0 or 1 and explain briefly.
+Use 1 for sarcastic and 0 for non-sarcastic.
+
+==================== Query 4: few-shot ====================
+You are judging sarcasm in a Reddit conversation.
+
+        Here are similar labeled examples:
+
+        Example 1
+Parent comment: Where do you think you are?
+Target reply: I didn't come here to feel
+Label: 0
+
+Example 2
+Parent comment: What?
+Target reply: My thoughts exactly.
+Label: 0
+
+Example 3
+Parent comment: how will you know if i really miss her?
+Target reply: gut instinct
+Label: 0
+
+        Now classify this new case.
+
+        Parent comment:
+        Now how would you know that feeling?
+
+        Target reply:
+        I wonder how.
+
+        Is the target reply sarcastic? Answer 0 or 1 and explain briefly.
+        Use 1 for sarcastic and 0 for non-sarcastic.
+
+==================== Query 5: zero-shot ====================
+You are judging sarcasm in a Reddit conversation.
+
+Parent comment:
+Putin Says He Will Sign Bill Banning Americans From Adopting Russian Children
+
+Target reply:
+TIL Putin is a redditor.
+
+Is the target reply sarcastic? Answer 0 or 1 and explain briefly.
+Use 1 for sarcastic and 0 for non-sarcastic.
+
+==================== Query 5: few-shot ====================
+You are judging sarcasm in a Reddit conversation.
+
+        Here are similar labeled examples:
+
+        Example 1
+Parent comment: Putin bans all 'undesirable' NGOs and sparks international outcry
+Target reply: **OUTCRY**
+Label: 0
+
+Example 2
+Parent comment: **well well well**
+Target reply: Putin strikes again
+Label: 1
+
+Example 3
+Parent comment: Russia suspended all adoptions to Canada because Canada has legalized gay marriage.
+Target reply: How nice of Soviet Russia to look after the safety of its children
+Label: 1
+
+        Now classify this new case.
+
+        Parent comment:
+        Putin Says He Will Sign Bill Banning Americans From Adopting Russian Children
+
+        Target reply:
+        TIL Putin is a redditor.
+
+        Is the target reply sarcastic? Answer 0 or 1 and explain briefly.
+        Use 1 for sarcastic and 0 for non-sarcastic.

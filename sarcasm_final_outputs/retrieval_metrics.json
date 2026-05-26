@@ -1,0 +1,17 @@
+{
+  "model_name": "Retrieval-augmented calibrated stacker",
+  "input_type": "supervised probabilities + retrieval-neighbor features",
+  "accuracy": 0.7901924803295136,
+  "balanced_accuracy": 0.7901969552667802,
+  "precision": 0.809301409560251,
+  "recall": 0.7593817236235959,
+  "f1": 0.7835472777418366,
+  "macro_f1": 0.7899945460929592,
+  "weighted_f1": 0.789993609831251,
+  "roc_auc": 0.8705017163665889,
+  "average_precision": 0.8737646052891598,
+  "test_samples": 151496,
+  "positive_samples": 75759,
+  "negative_samples": 75737,
+  "notes": "Full test-set inference for direct comparison with supervised rows. Calibrated logistic stacker using features: tfidf_prob, context_free_prob, context_aware_prob, retrieval_knn_prob, retrieval_top1_label, retrieval_top1_score, retrieval_score_mean, retrieval_score_std, retrieval_score_gap, retrieval_positive_neighbor_count. Threshold=0.56 was selected on a stratified calibration subset. The disjoint report-split diagnostic is displayed separately in the notebook."
+}
